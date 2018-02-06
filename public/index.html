@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Weird Calculator</title>
-	<link rel="stylesheet" type="text/css" href="./css/app.css">
-</head>
-<body>
-	<h1>Hi</h1>
-	<script src="./js/app.js" async defer></script>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Weird Calculator</title>
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/app.css">
+	</head>
+	<body>
+		<section class="hero is-info is-medium is-bold">
+			<div class="hero-head">
+				<nav class="navbar">
+					<div class="container">
+						<div class="navbar-brand has-text-centered margin-auto">
+							<a class="navbar-item margin-auto" href="/">
+								<strong class="subtitle" style="font-weight: 600; font-size: 2em"><i class="fa fa-calculator"></i> Weird Calculator</strong>
+							</a>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="hero-body">
+				<div class="container has-text-centered">
+					<h1 class="title">
+					Enter your weird string
+					</h1>
+					<h4 class="subtitle">
+						Your numbers will be extracted and summed up! WOW!
+					</h4>
+					<form class="form">
+						<div class="field">
+							<div class="control">
+								<input id="input-string" class="input is-rounded" type="text" placeholder="Any reasonable string that contains numbers, positive or negative..." required>
+							</div>
+						</div>
+						<div class="field is-grouped has-text-centered">
+							<div class="control" style="margin: 0 auto">
+								<button id="submit-btn" class="button is-primary">Calculate now!</button>
+							</div>
+						</div>
+					</form>
+					<div class="has-text-centered" id="result-container">
+						<h2 id="result-msg" class="subtitle"></h2>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<div class="content has-text-centered">
+						<p>
+							Developed by <a class="highlighted" href="https://jackeizhang.me">Ruowang(Jackie) Zhang</a>
+						</p>
+					</div>
+				</div>
+			</footer>
+		</section>
+		
+		<script src="./js/app.js" async defer></script>
+	</body>
 </html>

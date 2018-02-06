@@ -1,41 +1,25 @@
-html,
-body {
+html,body {
   background: #EFF3F4;
   font-family: 'Open Sans', serif;
 }
-
 .hero {
   height: 100% !important;
 }
-
 .hero-body .container {
   max-width: 700px;
 }
-
 .hero-body .title {
-  color: #fcfdfd !important;
+  color: hsl(192,17%,99%) !important;
 }
-
 .hero-body .subtitle {
-  color: #fcfdfd !important;
+  color: hsl(192,17%,99%) !important;
   padding-top: 2rem;
   line-height: 1.5;
 }
-
 .footer {
   height: 100px;
-  background-color: rgba(255, 255, 255, 0.1) !important;
+  background-color: rgba(255,255,255,0.1) !important;
 }
-
 a.highlighted {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255,255,255,0.1)
 }
-
-.margin-auto {
-  margin: 0 auto;
-}
-
-#result-container {
-  margin-top: 30px;
-}
-
