@@ -16,7 +16,7 @@ The app comes with a precompiled set of CSS/JS configured with ExpressJS server,
 `npm run serve` and go to `localhost:3000`
 
 #### Build the app (retranspile all css/js)
-`npm run dev` or `npm run wathc` for auto assets reloading.
+`npm run dev` or `npm run watch` for auto assets reloading.
 
 #### Run tests
 `npm run test`
